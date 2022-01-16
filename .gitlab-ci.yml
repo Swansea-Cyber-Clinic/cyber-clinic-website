@@ -3,7 +3,7 @@ pages:
  stage: deploy
  script:
   - yarn install
-  - yarn run build
+  - yarn build
   - rm -rf public
   - mkdir public
   - cp -r dist/* public
