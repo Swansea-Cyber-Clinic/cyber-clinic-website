@@ -2,6 +2,7 @@ pages:
  image: node:latest
  stage: deploy
  script:
+  - export NODE_OPTIONS=--openssl-legacy-provider
   - yarn install
   - yarn build
   - rm -rf public
