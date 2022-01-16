@@ -17,7 +17,7 @@
 export default {
   name: 'Home',
   mounted() {
-    document.title = 'Home | ardudwy'
+    document.title = 'Home | Cyber Clinic'
   },
 }
 </script>
