@@ -8,6 +8,7 @@ pages:
   - rm -rf public
   - mkdir public
   - cp -r dist/* public
+  - cp public/index.html public/404.html
  artifacts:
   expire_in: 1 day
   paths:
