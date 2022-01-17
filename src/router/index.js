@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Team from '../views/Team.vue'
+import Privacy from '../views/Privacy.vue'
 
 const routes = [
   {
@@ -20,6 +21,11 @@ const routes = [
     path: '/team',
     name: 'Team',
     component: Team
+  },
+  {
+    path: '/privacy',
+    name: 'Privacy Policy',
+    component: Privacy
   }
 ]
 

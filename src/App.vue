@@ -14,6 +14,7 @@
       <div class="navbar-end">
         <router-link to="/about" class="navbar-item">About</router-link>
         <router-link to="/team" class="navbar-item">Team</router-link>
+        <router-link to="/privacy" class="navbar-item">Privacy Policy</router-link>
       </div>
     </div>
   </nav>
@@ -24,10 +25,12 @@
 
   <footer class="footer">
     <small>
-      The <strong>Swansea Cyber Clinic</strong> is a joint research project between the <a href="https://www.swansea.ac.uk/law/">HRC School of Law</a> and the <a href="https://www.swansea.ac.uk/science/computationalfoundry/">Computational Foundry</a> at Swansea University. Content hosted on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.<br>
-      Made with <i class="fas fa-heart"></i> by the <router-link to="/team">Cyber Clinic team</router-link>.<br>
-      <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
+      The <strong>Swansea Cyber Clinic</strong> is a joint research project between the <a href="https://www.swansea.ac.uk/law/">HRC School of Law</a> and the <a href="https://www.swansea.ac.uk/science/computationalfoundry/">Computational Foundry</a> at Swansea University.<br>
+      Where indicated, content hosted on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br>
+      Made with <i class="fas fa-heart"></i> by the <router-link to="/team">Swansea Cyber Clinic team</router-link>.<br>
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
     </small>
+    
   </footer>
 
 </div>

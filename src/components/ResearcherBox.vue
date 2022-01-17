@@ -6,6 +6,9 @@
     <h3 class="is-size-4">
       {{ researcher.name }}
     </h3>
+    <p class="is-small">
+      {{ researcher.job_title }}
+    </p>
     <p class="is-small has-text-grey">
       {{ researcher.description }}
     </p>
@@ -16,7 +19,7 @@
       <i class="fas fa-home"></i>
     </a>
     <a v-if="researcher.email" v-bind:href="researcher.email" class="is-small">
-      <i class="fas fa-envelope"></i>
+      <i class="fa-solid fa-at"></i>
     </a>
     <a v-if="researcher.uni" v-bind:href="researcher.uni" class="is-small">
       <i class="fas fa-university"></i>

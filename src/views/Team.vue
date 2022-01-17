@@ -2,9 +2,9 @@
   <div class="about">
     <div class="columns is-multiline">
       <div class="column is-12">
-        <section class="hero is-small is-dark">
-          <p class="title">Team</p>
-          <p class="subtitle">An opportunity to meet the team</p>
+        <section class="hero is-dark">
+          <p class="title">Our team</p>
+          <p class="subtitle">Get to know us better!</p>
         </section>
       </div>
       <ResearcherBox
@@ -32,31 +32,42 @@ export default {
     return {
       researchers: [
         {
-          'name': 'Sara Correia',
+          'name': 'Dr Sara Correia',
           'twitter': 'https://twitter.com/SGCorreia',
           'uni': 'https://www.swansea.ac.uk/staff/law/correia-s-g/',
           'email': 'mailto:s.correia@swansea.ac.uk',
+          'job_title': 'Lecturer in Cyber Threats',
           'description': 'Principal Investigator'
         },
         {
-          'name': 'Stuart Nicholson',
-          'uni': 'https://www.swansea.ac.uk/staff/science/compsci/nicholson-s-a/',
-          'email':'mailto:s.a.nicholson@swansea.ac.uk',
+          'name': 'Dr Nnenna Ifeanyi-Ajufo',
+          'uni': 'https://www.swansea.ac.uk/staff/law/ifeanyi-ajufo-n-o/',
+          'email': 'mailto:n.o.ifeanyi-ajufo@swansea.ac.uk',
+          'job_title': 'Senior Lecturer in Law & Technology',
           'description': 'Researcher'
         },
         {
-          'name': 'Martin Porcheron',
+          'name': 'Dr Stuart Nicholson',
+          'uni': 'https://www.swansea.ac.uk/staff/science/compsci/nicholson-s-a/',
+          'email':'mailto:s.a.nicholson@swansea.ac.uk',
+          'job_title': 'Lecturer in Human Computer Interaction',
+          'description': 'Researcher'
+        },
+        {
+          'name': 'Dr Martin Porcheron',
           'link': 'https://www.porcheron.uk',
           'twitter': 'https://twitter.com/MPorcheron',
           'description': 'Researcher',
           'email': 'mailto:m.a.w.porcheron@swansea.ac.uk',
+          'job_title': 'Lecturer in Computer Science',
           'uni': 'https://www.swansea.ac.uk/staff/science/compsci/porcheron-m-a-w/'
         },
         {
-          'name': 'Leigh Clark',
+          'name': 'Dr Leigh Clark',
           'uni': 'https://www.swansea.ac.uk/staff/science/compsci/clark-l-m-h/',
           'email': 'mailto:l.m.h.clark@swansea.ac.uk',
           'link': 'https://lmhclark.com/',
+          'job_title': 'Lecturer in Human Computer Interaction',
           'twitter': 'https://twitter.com/lmhclark',
           'description': 'Researcher'
         },

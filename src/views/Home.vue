@@ -6,7 +6,7 @@
             Swansea Cyber Clinic
           </p>
           <p class="subtitle">
-            Some description
+            Researching support services for victims of cyber crime in South Wales
           </p>
       </div>
     </section>
