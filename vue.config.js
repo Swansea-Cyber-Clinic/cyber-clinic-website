@@ -5,9 +5,6 @@ const publicPath =
 
 module.exports = {
   publicPath,
-  devServer: {
-    proxy: 'https://swansea-cyber-clinic.gitlab.io/'
-  },
 
   parallel: false,
 

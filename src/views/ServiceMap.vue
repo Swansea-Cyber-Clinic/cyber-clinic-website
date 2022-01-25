@@ -68,7 +68,7 @@ export default {
           from: 'inline',
           config: {
             serverMode: 'full',
-            url: `/db/data.sqlite3`,
+            url: `${publicPath}db/data.sqlite3`,
             requestChunkSize: 4096,
           },
         },
