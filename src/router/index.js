@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Team from '../views/Team.vue'
 import Privacy from '../views/Privacy.vue'
+import ServiceMap from '../views/ServiceMap.vue'
 
 const routes = [
   {
@@ -26,6 +27,11 @@ const routes = [
     path: '/privacy',
     name: 'Privacy Policy',
     component: Privacy
+  },
+  {
+    path: '/service-map',
+    name: 'Service Mapping',
+    component: ServiceMap
   }
 ]
 
