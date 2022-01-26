@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --skip-plugins pwa",
-    "build": "vue-cli-service build --skip plugins pwa",
+    "build": "vue-cli-service build --skip-plugins pwa",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint"
