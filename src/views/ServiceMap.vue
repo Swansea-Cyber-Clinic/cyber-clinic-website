@@ -23,6 +23,8 @@
           </div>
         </div>
 
+        <progress v-bind:class="{'is-hidden': !$store.state.isLoading }" class="progress is-medium is-dark" max="100">45%</progress>
+
         <div class="content">
           <div v-if="!result || !result.length" class="columns is-multiline">
             <p>Sorry! No results.</p>
@@ -85,8 +87,10 @@ export default {
       this.result = await this.worker.db.query(sql);
     },
     async findOrganisationByCategory() {
+      this.$store.commit('setIsLoading', true)
       var cat = document.getElementById('category-select').value;
       this.result = await this.worker.db.query('SELECT * FROM organisation INNER JOIN category_mapping ON category_mapping.cam_org_id = organisation.org_id INNER JOIN category ON category_mapping.cam_cat_id = category.cat_id WHERE category_mapping.cam_cat_id=?', [cat])
+      this.$store.commit('setIsLoading', false)
     }
   },
 };
