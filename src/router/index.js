@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import Team from '../views/Team.vue'
 import Privacy from '../views/Privacy.vue'
 import ServiceMap from '../views/ServiceMap.vue'
+import AddService from '../views/AddService.vue'
 
 const routes = [
   {
@@ -32,6 +33,11 @@ const routes = [
     path: '/service-map',
     name: 'Service Mapping',
     component: ServiceMap
+  },
+  {
+    path: '/add-service',
+    name: 'Add a Service',
+    component: AddService
   }
 ]
 

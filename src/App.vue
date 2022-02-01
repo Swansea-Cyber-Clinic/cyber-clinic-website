@@ -13,6 +13,7 @@
     <div class="navbar-menu" id="navbar-menu" v-bind:class="{'is-active': showMobileMenu }">
       <div class="navbar-end">
         <router-link to="/service-map" class="navbar-item">Service Mapping</router-link>
+        <router-link to="/add-service" class="navbar-item">Add Service</router-link>
         <router-link to="/about" class="navbar-item">About</router-link>
         <router-link to="/team" class="navbar-item">Team</router-link>
         <router-link to="/privacy" class="navbar-item">Privacy Policy</router-link>
