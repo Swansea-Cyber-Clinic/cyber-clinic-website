@@ -48,7 +48,7 @@
         <p>Our website contains links to other websites. Our privacy policy applies only to this website, so if you click on a link to another website, you should read their privacy policy.</p>
         <h2 id="changes-to-our-privacy-policy">Changes to our privacy policy</h2>
         <p>We keep our privacy policy under regular review and place any updates on this web page. This privacy policy was last updated on 1 February 2022.</p>
-        <p>Change summary: Included references to Interactive Service Mapping (ISM)</p>
+        <p>Change summary: Included references to Interactive Service Mapping (ISM).</p>
         <p>You can browse through previous versions of this document <a href="https://github.com/Swansea-Cyber-Clinic/cyber-clinic-website/commits/main/src/views/Privacy.vue">here</a>.</p>
         <h2 id="how-to-contact-the-appropriate-authority">How to contact the appropriate authority</h2>
         <p>Should you wish to report a complaint or if you feel that we have not addressed your concern in a satisfactory manner, you may contact the <a href="https://ico.org.uk/make-a-complaint/">Information Commissioner’s Office</a>.</p>
