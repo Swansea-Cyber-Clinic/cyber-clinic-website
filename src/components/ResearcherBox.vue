@@ -19,7 +19,7 @@
       <i class="fas fa-home"></i>
     </a>
     <a v-if="researcher.email" v-bind:href="researcher.email" class="is-small">
-      <i class="fa-solid fa-at"></i>
+      <i class="fas fa-at"></i>
     </a>
     <a v-if="researcher.uni" v-bind:href="researcher.uni" class="is-small">
       <i class="fas fa-university"></i>
