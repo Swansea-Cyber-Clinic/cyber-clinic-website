@@ -3,10 +3,10 @@
     <section class="hero is-small is-dark">
       <div class="hero-body">
           <p class="title is-size-1">
-            Swansea Cyber Clinic
+            {{ $t('branding.organisation_name') }}
           </p>
           <p class="subtitle">
-            Researching support services for victims of cyber crime in South Wales
+            {{ $t('branding.motto') }}
           </p>
       </div>
     </section>
@@ -17,7 +17,7 @@
 export default {
   name: 'Home',
   mounted() {
-    document.title = 'Home | Cyber Clinic'
+    document.title = `${this.$t('pages.home')} | ${this.$t('branding.organisation_name')}`
   },
 }
 </script>

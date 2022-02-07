@@ -1,8 +1,8 @@
 <template>
   <div class="about">
     <section class="hero is-dark">
-      <p class="title">Privacy Policy</p>
-      <p class="subtitle">What we do with the data we collect</p>
+      <p class="title">{{ $t('privacy_policy.title') }}</p>
+          <p class="subtitle">{{ $t('privacy_policy.subtitle') }}</p>
     </section>
     <section class="section">
       <div class="content">

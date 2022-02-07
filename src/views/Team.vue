@@ -3,8 +3,8 @@
     <div class="columns is-multiline">
       <div class="column is-12">
         <section class="hero is-dark">
-          <p class="title">Our team</p>
-          <p class="subtitle">Get to know us better!</p>
+          <p class="title">{{ $t('team.title') }}</p>
+          <p class="subtitle">{{ $t('team.subtitle') }}</p>
         </section>
       </div>
       <ResearcherBox
@@ -26,7 +26,7 @@ export default {
     ResearcherBox
   },
   mounted() {
-    document.title = 'Team | Cyber Clinic'
+    document.title = `${this.$t('pages.team')} | ${this.$t('branding.organisation_name')}`
   },
   data() {
     return {

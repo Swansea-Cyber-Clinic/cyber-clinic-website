@@ -1,8 +1,8 @@
 <template>
   <div class="about">
     <section class="hero is-dark">
-      <p class="title">About</p>
-      <p class="subtitle">Information about the Swansea Cyber Clinic</p>
+      <p class="title">{{ $t('about.title') }}</p>
+      <p class="subtitle">{{ $t('about.subtitle') }}</p>
     </section>
     <section class="section">
       <div class="content">
