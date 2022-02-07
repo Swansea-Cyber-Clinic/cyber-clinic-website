@@ -6,6 +6,13 @@ This is a Vue.js based project, so you'll need:
 - Node.js
 - Yarn
 
+### Node.js version notice
+You might need to export the following environment variable when developing using Node.js v17+:
+
+```zsh
+export NODE_OPTIONS=--openssl-legacy-provider
+```
+
 ### Installing prerequisites
 ```zsh
 # change directory into repository directory first
