@@ -1,0 +1,30 @@
+{
+  "branding": {
+    "organisation_name": "Swansea Cyber Clinic",
+    "motto": "Researching support services for victims of cyber crime in South Wales",
+    "blurb_1": "The <strong>Swansea Cyber Clinic</strong> is a joint research project between the <a href='https://www.swansea.ac.uk/law/'>HRC School of Law</a> and the <a href='https://www.swansea.ac.uk/science/computationalfoundry/'>Computational Foundry</a> at Swansea University.",
+    "blurb_2": "Where indicated, content hosted on this site is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-sa/4.0/'>Creative Commons Attribution-ShareAlike 4.0 International License</a>.",
+    "blurb_3": "Made with <i class='fas fa-heart'></i> by the <router-link to='/team'>Swansea Cyber Clinic team</router-link>."
+  },
+  "pages": {
+    "home": "Home",
+    "service_mapping": "Service Mapping",
+    "add_service": "Add Service",
+    "about": "About",
+    "team": "Team",
+    "privacy_policy": "Privacy Policy"
+  },
+  "team": {
+    "title": "Our team",
+    "subtitle": "Get to know us better!"
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "Information about the Swansea Cyber Clinic"
+  },
+  "privacy_policy": {
+    "title": "Privacy Policy",
+    "subtitle": "What we do with the data we collect"
+  },
+  "language": "Language"
+}

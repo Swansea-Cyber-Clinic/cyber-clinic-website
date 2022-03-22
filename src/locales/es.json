@@ -1,0 +1,30 @@
+{
+  "branding": {
+    "organisation_name": "Clínica cibernética de Swansea",
+    "motto": "Investigando los servicios de apoyo para las víctimas del delito cibernético en Gales del Sur",
+    "blurb_1": "La <strong>Clínica cibernética de Swansea</strong> es un projecto de investigación conjunto entre la <a href='https://www.swansea.ac.uk/law/'>Facultad de Derecho HRC</a> y la <a href='https://www.swansea.ac.uk/science/computationalfoundry/'>Fundición Computacional</a> en la Universidad de Swansea.",
+    "blurb_2": "Donde se indique, el contenido alojado en este sitio tiene una <a rel='license' href='http://creativecommons.org/licenses/by-sa/4.0/'>licencia internacional Creative Commons Attribution-ShareAlike 4.0</a>.",
+    "blurb_3": "Hecho con <i class='fas fa-heart'></i> por el <router-link to='/team'>equipo de Clínica cibernética de Swansea</router-link>."
+  },
+  "pages": {
+    "home": "Inicio",
+    "service_mapping": "Mapeo de Servicios",
+    "add_service": "Añadir un Servicio",
+    "about": "Sobre",
+    "team": "Equipo",
+    "privacy_policy": "Política de Privacidad"
+  },
+  "team": {
+    "title": "Nuestro equipo",
+    "subtitle": "¡Conócenos mejor!"
+  },
+  "about": {
+    "title": "Sobre",
+    "subtitle": "Información sobre la Clínica cibernética de Swansea"
+  },
+  "privacy_policy": {
+    "title": "Política de Privacidad",
+    "subtitle": "Qué hacemos con los datos que recopilamos"
+  },
+  "language": "Idioma"
+}
