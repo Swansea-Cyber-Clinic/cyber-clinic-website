@@ -14,7 +14,6 @@
     "bulma": "^0.9.3",
     "copy-webpack-plugin": "6",
     "core-js": "^3.6.5",
-    "register-service-worker": "^1.7.1",
     "sql.js-httpvfs": "^0.8.11",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
